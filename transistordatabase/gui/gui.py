@@ -503,7 +503,7 @@ class MainWindow(QMainWindow):
         self.lineEdit_create_transistor_add_data_dpt_measurement_date.setText(str(datetime.date.today()))
 
         # Testbench combobox
-        self.comboBox_create_transistor_add_data_dpt_measurement_testbench.addItems(['', 'Paderborn University / LEA'])
+        self.comboBox_create_transistor_add_data_dpt_measurement_testbench.addItems(['', 'Spirit Connect Power Labs'])
         self.comboBox_create_transistor_add_data_dpt_measurement_testbench.setEditable(True)
 
         # Sets all settings given in the settings.json file in the current working directory

@@ -2,7 +2,7 @@
 name = "transistordatabase"
 version = "0.5.1"
 authors = [
-    { name = "UPB-LEA" },
+    { name = "Spirit Connect Power Labs" },
 ]
 description = "Transistor Database"
 readme = "README.rst"

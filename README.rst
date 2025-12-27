@@ -4,7 +4,7 @@
 Transistordatabase
 ###########################
 
-The Transistordatabase is a tool developed by LEA from the University Paderborn which helps working with choosing transistors for the developement of electronics.
+The Transistordatabase is a tool developed by Spirit Connect Power Labs which helps working with choosing transistors for the developement of electronics.
 When it comes to the point of choosing a transistor, there is typically a lot of trouble with different programs. Often there are multiple programs for
 calculating transistor parameters and a schematic simulator to verify the results.
 Now your colleague is working on a different electronics topology and may use different programs. This is a problem because in most cases your transistors will never be

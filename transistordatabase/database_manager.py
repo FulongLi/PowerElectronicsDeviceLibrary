@@ -738,7 +738,7 @@ class DatabaseManager:
         >>>     'commutation_inductance': 15.63e-9,
         >>>     'commutation_device': 'IDH06G65C6',
         >>>     'measurement_date': None,
-        >>>     'measurement_testbench': 'LEA-UPB Testbench',
+        >>>     'measurement_testbench': 'Spirit Connect Power Labs Testbench',
         >>>     'v_g': 12,
         >>>     'v_g_off': 0,
         >>>     'energies': 'both',
