@@ -44,7 +44,7 @@ def test_load_transistor_json(database_json: DatabaseManager):
     """
     # Get transistor manually from the database
     t1_dict = None
-    with open(os.path.join(database_dir, database_transistor_path), "r") as fd:
+    with open(database_transistor_path, "r") as fd:
         t1_dict = json.load(fd)
 
     t1 = database_json.convert_dict_to_transistor_object(t1_dict)
@@ -64,7 +64,7 @@ def test_save_transistor_json(database_json: DatabaseManager):
     """
     # Get transistor manually from single data folder
     t1_dict = None
-    with open(os.path.join(database_dir, fixed_transistor_path), "r") as fd:
+    with open(fixed_transistor_path, "r") as fd:
         t1_dict = json.load(fd)
 
     t1 = database_json.convert_dict_to_transistor_object(t1_dict)
